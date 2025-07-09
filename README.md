@@ -33,6 +33,8 @@ The hazard detection functionality is implemented as a standalone feature by emb
 
 ## SPARK
 A personalised product recommendation agent that can adapt to live user interaction activities utilising deep reinforcement learning, behavioral modeling, and feature engineering. 
+This project is implemented with online shopping web interface to gather real-time user data such as clicks, reviews, likes, and purchases. Feature engineering techniques are applied on past and real-time interaction data to provide latent features, effectively allowing the RL model to learn and adapt to changes of user behaviour over time. ![image](https://github.com/user-attachments/assets/a2b91866-8be5-40c8-b065-676b23b46481)
+
 
 - https://github.com/chilliavocado/spark
 
