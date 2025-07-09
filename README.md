@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/05a36c43-c09f-42f0-be86-1a09297c8335)## Hi there 👋
+## Hey there! 👋
 
 <!--
 **mlstudios-ai/mlstudios-ai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
