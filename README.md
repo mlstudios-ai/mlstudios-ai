@@ -50,9 +50,9 @@ The system utilises Amazon Bedrock, Pinecone, and OpenAI for RAG question and an
 - https://github.com/chilliavocado/ChatBot-Adv-NLP/tree/main/Anna
 
 ## Medical AI
-Alzheimer’s disease detection on MRI brain scans using Convolutional Neural Network (CNN) image classification. My approach achieved 92% accuracy, surpassing human medical professional benchmark of 87%.
+Alzheimer’s disease detection on MRI brain scans using Convolutional Neural Network (CNN) image classification. The researched approach achieved 92% accuracy, surpassing human medical professional benchmark of 87%.
 
-This task requires deep analysis of the problem with domain knowledge to design solution approach. The techniques I proposed include skull stripping to remove data noise, selecting mid brain scans near the hippocampus to detect brain mass shrinkage, image augmentation to increase data variability, and CNN layer regularisation, dropout, and normalisation for performance optimisation. 
+This task requires deep analysis of the problem with domain knowledge to design solution approach. The techniques applied include skull stripping to remove data noise, selecting mid brain scans near the hippocampus to detect brain mass shrinkage, image augmentation to increase data variability, and CNN layer regularisation, dropout, and normalisation for performance optimisation. 
 
 - https://github.com/chilliavocado/Dementia-Classification-via-MRI-data 
 
