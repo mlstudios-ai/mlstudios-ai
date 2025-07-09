@@ -17,9 +17,13 @@ Here are some ideas to get you started:
 
 This is my R&D github account where I experiment everything AI, ML, SE, plus some creative stuff. And occasional ranting...
 
-It is still under development. I have a few projects that yet to migrate here. Some of them are private due to strict policies.
+It is still under development. I have a few of my research projects that yet to migrate here. Some of them are private due to strict policies.
 
-If you want access please contact me directly.
+My plan is to host it so you can see it in action live. 
+
+mlstudios.ai (coming soon)
+
+If you want access to the code on GitHub, please contact me directly.
 
 # Projects
 ## SecondSight
