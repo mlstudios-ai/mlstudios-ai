@@ -27,7 +27,7 @@ If you want access to the code on GitHub, please contact me directly.
 
 # Projects
 ## SecondSight
-An end-to-end live hazard detection AI application designed to enhance accident prevention and situational awareness for people with blindness. This project was nominated for the AI Showcase at the University of Sydney Technology.
+An end-to-end live hazard detection AI application designed to enhance accident prevention and situational awareness for people with blindness. This project was nominated and won the Best Application AI Showcase.
 
 The hazard detection functionality is implemented as a standalone feature by embedding YOLO 11 Nano object detection on the iPhone paired with Apple Watch to receive haptic and speech alerts as well as application control. With internet access, it also offers live scene description for situational awareness via custom-trained and prompt-engineered visual language models (VLMs), served through FastAPI endpoints.
 
