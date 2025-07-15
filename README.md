@@ -19,7 +19,7 @@ This is my R&D github account where I experiment everything AI, ML, SE, plus som
 
 It is still under development. I have a few of my research projects that yet to migrate here. Some of them are private due to strict policies.
 
-My plan is to host it so you can see it in action live. 
+My plan is to some of them live where possible.
 
 mlstudios.ai (coming soon)
 
@@ -27,13 +27,25 @@ If you want access to the code on GitHub, please contact me directly.
 
 # Projects
 ## SecondSight
-An end-to-end live hazard detection AI application designed to enhance accident prevention and situational awareness for people with blindness. This project was nominated and won the Best Application AI Showcase Award.
+An end-to-end live hazard detection AI application designed to enhance accident prevention and situational awareness for people with blindness. **This project was nominated and won the Best Application AI Showcase Award**.
 
 The hazard detection functionality is implemented as a standalone feature by embedding YOLO 11 Nano object detection on the iPhone paired with Apple Watch to receive haptic and speech alerts as well as application control. With internet access, it also offers live scene description for situational awareness via custom-trained and prompt-engineered visual language models (VLMs), served through FastAPI endpoints.
+
+The following components make up an end-to-end system, designed with separation of concerns and flexibility in mind.
 
 - https://github.com/vanilla-ai-ml/EnigmaAI (MLOps)
 - https://github.com/vanilla-ai-ml/SecondSight-API (FastAPI)
 - https://github.com/vanilla-ai-ml/SecondSight (iOS)
+
+<img src="docs/assets/secondsight/system_design.png">
+
+EnigmaAI is an end-to-end MLOps CI/CD pipeline responsible for data preprocessing, model training, hyperparameter optimisation, model validation, and model deployment.
+
+A FastAPI-based microservice exposes a REST endpoint for real-time model inference, designed to be stateless and independently deployable as part of the DevOps pipeline, and intended for integration with an iOS frontend.
+
+The iOS application serves as a standalone component, providing the user interface for interacting with the deployed model.
+
+👉 [View Detailed Architecture Diagram](./docs/assets/secondsight/detailed_architecture.png)
 
 ## SPARK
 A personalised product recommendation agent that can adapt to live user interaction activities utilising deep reinforcement learning, behavioral modeling, and feature engineering. 
